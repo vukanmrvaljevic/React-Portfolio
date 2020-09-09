@@ -3,7 +3,7 @@
 
 #hamnav {
   width: 100%;
-  background: #000;
+  background: #151515;
 
   /* Optional */
   position: sticky;
@@ -35,7 +35,8 @@
     text-align: center;
 
     &:hover {
-      background: #401408;
+      background: #97f6da;
+      color: black;
     }
   }
 }
@@ -44,13 +45,13 @@
 @media screen and (max-width: 768px) {
   /* Show Hamburger Icon */
   #hamnav {
-    width: 120%;
+    width: 100%;
   }
 
   #hamnav label {
     display: inline-block;
     color: white;
-    background: #a02620;
+    background: black;
     font-style: normal;
     font-size: 1.2em;
     padding: 10px;
@@ -67,7 +68,7 @@
     a {
       box-sizing: border-box;
       display: block;
-      width: 100%;
+      width: 113%;
       border-top: 1px solid #333;
     }
 

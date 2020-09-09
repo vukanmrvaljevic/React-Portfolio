@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.contact-button {
+  margin-left: 820px;
+  :hover {
+    color: $secondary-color;
+  }
+}
+
 body {
   @include background;
   background: $primary-color;
@@ -47,6 +54,24 @@ header {
   color: $secondary-color;
 }
 
+.contact-button {
+  position: relative;
+  left: 800px;
+  &:hover {
+    font-size: 40px;
+  }
+}
+
+.linked-in-button {
+  color: black;
+  font-size: 30px;
+}
+
+.github-button {
+  color: black;
+  font-size: 30px;
+}
+
 main {
   padding: 4rem;
   // height: 100%;
@@ -64,7 +89,6 @@ main {
       }
     }
   }
-
   &#home {
     overflow: hidden;
     h1 {
@@ -102,7 +126,7 @@ main {
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
     position: relative;
-    left: 350px;
+    left: 570px;
   }
 }
 
@@ -166,12 +190,14 @@ main {
   @extend .btn;
   background: darken($primary-color, 50);
   color: #fff;
+  width: 370px;
 }
 
 .btn-light {
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;
+  width: 370px;
 }
 
 @import "mobile";

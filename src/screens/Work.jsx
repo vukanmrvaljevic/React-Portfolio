@@ -5,7 +5,7 @@ import Shelter from "../img/Barc-Shelter.png"
 
 const Work = () => {
   const myStyle = {
-    width: "420px",
+    width: "370px",
     height: "300px",
     borderRadius: "10px",
   }
@@ -19,25 +19,15 @@ const Work = () => {
         <h2 className="sm-heading">Check out some of my projects...</h2>
         <div className="projects">
           <div className="item">
-            <img src="img/projects/project1.jpg" alt="Project 1" />
+            <img
+              src="img/projects/project1.jpg"
+              alt="Project 1"
+              style={myStyle}
+            />
             <ExternalLink href="https://www.tmz.com/" className="btn-light">
               <i className="fas fa-eye"></i> Covid-19
             </ExternalLink>
             <ExternalLink href="https://github.com/" className="btn-dark">
-              <i className="fab fa-github"></i> Github
-            </ExternalLink>
-          </div>
-          <div className="item">
-            <a href="#!">
-              <img src="img/projects/project2.jpg" alt="Project 2" />
-            </a>
-            <ExternalLink href="https://www.tmz.com/" className="btn-light">
-              <i className="fas fa-eye"></i> Movie-Maker-Editor
-            </ExternalLink>
-            <ExternalLink
-              href="https://github.com/vukanmrvaljevic/Movie-Maker-Editor"
-              className="btn-dark"
-            >
               <i className="fab fa-github"></i> Github
             </ExternalLink>
           </div>
