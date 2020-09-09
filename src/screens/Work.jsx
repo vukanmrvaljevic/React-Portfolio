@@ -84,7 +84,7 @@ const Work = () => {
               href="https://github.com/vukanmrvaljevic/Non-Sensical-Quiz"
               className="btn-dark"
             >
-              <i className="fab fa-github"></i> Githubbb
+              <i className="fab fa-github"></i> Github
             </ExternalLink>
           </div>
         </div>
