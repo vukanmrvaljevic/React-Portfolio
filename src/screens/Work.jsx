@@ -2,6 +2,7 @@ import React from "react"
 import { ExternalLink } from "react-external-link"
 import Quiz from "../img/Non-Sensical-Quiz.png"
 import Shelter from "../img/Barc-Shelter.png"
+import Covid19 from "../img/covid-19 (home-page).png"
 
 const Work = () => {
   const myStyle = {
@@ -19,15 +20,17 @@ const Work = () => {
         <h2 className="sm-heading">Check out some of my projects...</h2>
         <div className="projects">
           <div className="item">
-            <img
-              src="img/projects/project1.jpg"
-              alt="Project 1"
-              style={myStyle}
-            />
-            <ExternalLink href="https://www.tmz.com/" className="btn-light">
+            <img src={Covid19} alt="Covid" style={myStyle} />
+            <ExternalLink
+              href="https://wizardly-pasteur-cadc61.netlify.app/"
+              className="btn-light"
+            >
               <i className="fas fa-eye"></i> Covid-19
             </ExternalLink>
-            <ExternalLink href="https://github.com/" className="btn-dark">
+            <ExternalLink
+              href="https://github.com/vukanmrvaljevic/Covid-19"
+              className="btn-dark"
+            >
               <i className="fab fa-github"></i> Github
             </ExternalLink>
           </div>
