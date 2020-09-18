@@ -10,6 +10,7 @@ const Work = () => {
     height: "300px",
     borderRadius: "10px",
   }
+  
   return (
     <div>
       <main id="work">
